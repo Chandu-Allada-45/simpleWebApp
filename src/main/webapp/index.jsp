@@ -3,9 +3,11 @@
 <div align="center">
 <h2>Fetch Employee!</h2>
 <form action="employee">
-<b>Employee ID : </b>  <input type="text" name="emp_id" required/>
-<br/><br/>
-<input type="submit" value="Submit">
+<table>
+<tr><td><b>Employee ID : </b></td> <td><input type="text" name="emp_id" required/></td></tr>
+<tr><td colspan=2 align="center"></td></tr>
+<tr><td colspan=2 align="center"><input type="submit" value="Submit"></td></tr>
+</table>
 </form>
 </div>
 </body>
